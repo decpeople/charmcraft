@@ -1,0 +1,15 @@
+stop-the-service:
+  description: Stop the RabbitMQ service
+start-the-service:
+  description: Start the RabbitMQ service
+restart-the-service:
+  description: Restart the RabbitMQ service
+config-changed:
+  params:
+    main_data:
+      type: string
+      description: First text input for  change
+  required: [main_data]
+  additionalProperties: false
+get-conf:
+  description: Get conf RabbitMQ

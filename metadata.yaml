@@ -1,0 +1,15 @@
+name: rabbitmq
+summary: rabbitmq
+description: This is RabbitMQ new prototype for OpenStack.
+maintainer: Turar Aibar <decpeople1@gmail.com>
+series:
+  - xenial
+  - bionic
+  - focal
+  - groovy
+  - hirsute
+  - impish
+  - jammy
+charm-version: 1.0.1
+app-version: 1.0.1
+application-version: 3.0
